@@ -1,0 +1,17 @@
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaNegocio.deps.json
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaNegocio.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaNegocio.pdb
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaDatos.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaEntidad.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaDatos.pdb
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\bin\Debug\net6.0-windows\capaEntidad.pdb
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.csproj.AssemblyReference.cache
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.AssemblyInfoInputs.cache
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.AssemblyInfo.cs
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.csproj.CopyComplete
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\refint\capaNegocio.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\capaNegocio.pdb
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaNegocio\obj\Debug\net6.0-windows\ref\capaNegocio.dll
