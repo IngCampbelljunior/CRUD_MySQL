@@ -34,15 +34,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.txtId = new System.Windows.Forms.NumericUpDown();
+            this.lnkFoto = new System.Windows.Forms.LinkLabel();
+            this.picFoto = new System.Windows.Forms.PictureBox();
+            this.ofdFoto = new System.Windows.Forms.OpenFileDialog();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.txtId)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -95,73 +95,78 @@
             this.txtApellido.Size = new System.Drawing.Size(139, 23);
             this.txtApellido.TabIndex = 5;
             // 
-            // numericUpDown1
+            // txtId
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(125, 23);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
-            this.numericUpDown1.TabIndex = 6;
+            this.txtId.Location = new System.Drawing.Point(125, 23);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(120, 23);
+            this.txtId.TabIndex = 6;
             // 
-            // linkLabel1
+            // lnkFoto
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(29, 167);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(67, 15);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Seleccionar";
+            this.lnkFoto.AutoSize = true;
+            this.lnkFoto.Location = new System.Drawing.Point(29, 167);
+            this.lnkFoto.Name = "lnkFoto";
+            this.lnkFoto.Size = new System.Drawing.Size(67, 15);
+            this.lnkFoto.TabIndex = 7;
+            this.lnkFoto.TabStop = true;
+            this.lnkFoto.Text = "Seleccionar";
+            this.lnkFoto.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkFoto_LinkClicked);
             // 
-            // pictureBox1
+            // picFoto
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(125, 152);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 128);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.picFoto.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.picFoto.Location = new System.Drawing.Point(125, 152);
+            this.picFoto.Name = "picFoto";
+            this.picFoto.Size = new System.Drawing.Size(139, 128);
+            this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picFoto.TabIndex = 8;
+            this.picFoto.TabStop = false;
             // 
-            // openFileDialog1
+            // ofdFoto
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.ofdFoto.FileName = "openFileDialog1";
             // 
-            // button1
+            // btnNuevo
             // 
-            this.button1.Location = new System.Drawing.Point(29, 310);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "&Nuevo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNuevo.Location = new System.Drawing.Point(29, 310);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.btnNuevo.TabIndex = 9;
+            this.btnNuevo.Text = "&Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
-            // button2
+            // btnEliminar
             // 
-            this.button2.Location = new System.Drawing.Point(125, 310);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "&Eliminar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(125, 310);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 10;
+            this.btnEliminar.Text = "&Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnGuardar
             // 
-            this.button3.Location = new System.Drawing.Point(221, 310);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "&Guardar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnGuardar.Location = new System.Drawing.Point(221, 310);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 11;
+            this.btnGuardar.Text = "&Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // frClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(383, 351);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.picFoto);
+            this.Controls.Add(this.lnkFoto);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label4);
@@ -169,10 +174,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frClientes";
-            this.Text = "Form1";
+            this.Text = "Clientes";
             this.Load += new System.EventHandler(this.frClientes_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtId)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -186,12 +191,12 @@
         private Label label4;
         private TextBox txtNombre;
         private TextBox txtApellido;
-        private NumericUpDown numericUpDown1;
-        private LinkLabel linkLabel1;
-        private PictureBox pictureBox1;
-        private OpenFileDialog openFileDialog1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private NumericUpDown txtId;
+        private LinkLabel lnkFoto;
+        private PictureBox picFoto;
+        private OpenFileDialog ofdFoto;
+        private Button btnNuevo;
+        private Button btnEliminar;
+        private Button btnGuardar;
     }
 }

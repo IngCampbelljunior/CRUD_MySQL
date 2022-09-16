@@ -10,7 +10,6 @@ C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentac
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\capaNegocio.pdb
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\capaDatos.pdb
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.csproj.AssemblyReference.cache
-C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.Form1.resources
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.csproj.GenerateResource.cache
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.AssemblyInfoInputs.cache
@@ -22,3 +21,4 @@ C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentac
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.pdb
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.genruntimeconfig.cache
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\ref\capaPresentacion.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.frClientes.resources
