@@ -41,8 +41,10 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.gridDatos = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.txtId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -157,11 +159,21 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // gridDatos
+            // 
+            this.gridDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridDatos.Location = new System.Drawing.Point(331, 23);
+            this.gridDatos.Name = "gridDatos";
+            this.gridDatos.RowTemplate.Height = 25;
+            this.gridDatos.Size = new System.Drawing.Size(376, 310);
+            this.gridDatos.TabIndex = 12;
+            // 
             // frClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 351);
+            this.ClientSize = new System.Drawing.Size(754, 351);
+            this.Controls.Add(this.gridDatos);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
@@ -179,6 +191,7 @@
             this.Load += new System.EventHandler(this.frClientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtId)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,5 +212,6 @@
         private Button btnNuevo;
         private Button btnEliminar;
         private Button btnGuardar;
+        private DataGridView gridDatos;
     }
 }

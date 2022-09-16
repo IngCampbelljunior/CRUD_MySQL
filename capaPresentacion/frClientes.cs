@@ -14,7 +14,7 @@ public partial class frClientes : Form
 
     private void frClientes_Load(object sender, EventArgs e)
     {
-
+        gridDatos.DataSource = cNCliente.ObtenerDatos().Tables["tbl"];
     }
 
     private void btnNuevo_Click(object sender, EventArgs e)

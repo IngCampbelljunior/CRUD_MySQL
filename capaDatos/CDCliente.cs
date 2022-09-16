@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using capaEntidad;
+using System.Data;
 
 namespace capaDatos
 {
@@ -34,6 +35,20 @@ namespace capaDatos
             mySqlCommand.ExecuteNonQuery();
             mySqlConnection.Close();
             MessageBox.Show("Registro creado!");
+        }
+
+        public DataSet Listar()
+        {
+            MySqlConnection mySqlConnection = new MySqlConnection(CadenaConexion);
+            mySqlConnection.Open();
+            string Query = "SELECT * FROM `clientes` LIMIT 1000;";
+            MySqlDataAdapter Adaptador;
+            DataSet dataSet = new DataSet();
+
+            Adaptador = new MySqlDataAdapter(Query, mySqlConnection);
+            Adaptador.Fill(dataSet, "tbl");
+
+            return dataSet;
         }
     }
 }

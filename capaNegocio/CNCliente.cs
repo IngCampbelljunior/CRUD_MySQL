@@ -1,6 +1,7 @@
 ﻿using capaEntidad;
 using capaNegocio;
 using capaDatos;
+using System.Data;
 
 namespace capaNegocio
 {
@@ -40,6 +41,11 @@ namespace capaNegocio
         public void CrearCliente(CECliente cE)
         {
             cDCliente.Crear(cE);
+        }
+
+        public DataSet ObtenerDatos() 
+        {
+            return cDCliente.Listar();
         }
     }
 }
