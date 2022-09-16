@@ -22,3 +22,11 @@ C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentac
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.genruntimeconfig.cache
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\ref\capaPresentacion.dll
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\obj\Debug\net6.0-windows\capaPresentacion.frClientes.resources
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaPresentacion\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
