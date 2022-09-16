@@ -69,4 +69,12 @@ public partial class frClientes : Form
     {
         cNCliente.PruebaMySql();
     }
+
+    private void gridDatos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+    {
+        txtId.Value = (int)gridDatos.CurrentRow.Cells["id"].Value;
+        txtNombre.Text = gridDatos.CurrentRow.Cells["nombre"].Value.ToString();
+        txtApellido.Text = gridDatos.CurrentRow.Cells["apellido"].Value.ToString();
+        picFoto.Load(gridDatos.CurrentRow.Cells["foto"].Value.ToString());
+    }
 }

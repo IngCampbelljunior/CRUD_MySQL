@@ -167,6 +167,7 @@
             this.gridDatos.RowTemplate.Height = 25;
             this.gridDatos.Size = new System.Drawing.Size(523, 310);
             this.gridDatos.TabIndex = 12;
+            this.gridDatos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridDatos_CellDoubleClick);
             // 
             // frClientes
             // 
