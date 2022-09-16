@@ -59,8 +59,15 @@ public partial class frClientes : Form
             return;
         }
 
-        cNCliente.CrearCliente(cECliente);
-
+        if (cECliente.Id == 0)
+        {
+            cNCliente.CrearCliente(cECliente);
+        }
+        else
+        {
+            cNCliente.EditarCliente(cECliente);
+        }
+        
         CargarDatos();
 
     }

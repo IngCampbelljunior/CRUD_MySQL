@@ -99,9 +99,10 @@
             // 
             // txtId
             // 
+            this.txtId.Enabled = false;
             this.txtId.Location = new System.Drawing.Point(125, 23);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(120, 23);
+            this.txtId.Size = new System.Drawing.Size(139, 23);
             this.txtId.TabIndex = 6;
             // 
             // lnkFoto
