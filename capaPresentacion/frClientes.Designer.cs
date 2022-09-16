@@ -165,14 +165,14 @@
             this.gridDatos.Location = new System.Drawing.Point(331, 23);
             this.gridDatos.Name = "gridDatos";
             this.gridDatos.RowTemplate.Height = 25;
-            this.gridDatos.Size = new System.Drawing.Size(376, 310);
+            this.gridDatos.Size = new System.Drawing.Size(523, 310);
             this.gridDatos.TabIndex = 12;
             // 
             // frClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 351);
+            this.ClientSize = new System.Drawing.Size(879, 351);
             this.Controls.Add(this.gridDatos);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnEliminar);

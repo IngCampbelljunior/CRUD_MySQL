@@ -14,6 +14,11 @@ public partial class frClientes : Form
 
     private void frClientes_Load(object sender, EventArgs e)
     {
+        CargarDatos();
+    }
+
+    public void CargarDatos() 
+    {
         gridDatos.DataSource = cNCliente.ObtenerDatos().Tables["tbl"];
     }
 
@@ -55,6 +60,9 @@ public partial class frClientes : Form
         }
 
         cNCliente.CrearCliente(cECliente);
+
+        CargarDatos();
+
     }
 
     private void btnEliminar_Click(object sender, EventArgs e)
