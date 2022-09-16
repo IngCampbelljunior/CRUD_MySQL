@@ -53,6 +53,8 @@ public partial class frClientes : Form
         {
             return;
         }
+
+        cNCliente.CrearCliente(cECliente);
     }
 
     private void btnEliminar_Click(object sender, EventArgs e)

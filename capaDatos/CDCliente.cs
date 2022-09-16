@@ -21,7 +21,19 @@ namespace capaDatos
                 return;
             }
 
+            mySqlConnection.Close();
             MessageBox.Show("Conectado!");
+        }
+
+        public void Crear(CECliente cE ) 
+        {
+            MySqlConnection mySqlConnection = new MySqlConnection(CadenaConexion);
+            mySqlConnection.Open();
+            string Query = "INSERT INTO `clientes` (`nombre`, `apellido`, `foto`) VALUES ('"+ cE.Nombre +"', '"+ cE.Apellido +"', '" + MySql.Data.MySqlClient.MySqlHelper.EscapeString(cE.Foto)+ "');";
+            MySqlCommand mySqlCommand = new MySqlCommand(Query, mySqlConnection);
+            mySqlCommand.ExecuteNonQuery();
+            mySqlConnection.Close();
+            MessageBox.Show("Registro creado!");
         }
     }
 }
