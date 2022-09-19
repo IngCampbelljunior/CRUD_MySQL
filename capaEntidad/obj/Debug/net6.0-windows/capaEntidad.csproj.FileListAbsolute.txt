@@ -10,3 +10,15 @@ C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaEntidad\o
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\refint\capaEntidad.dll
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.pdb
 C:\Users\luis.garcia\Desktop\ProyectosCampbell\Practica\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\ref\capaEntidad.dll
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\bin\Debug\net6.0-windows\capaEntidad.deps.json
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\bin\Debug\net6.0-windows\capaEntidad.dll
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\bin\Debug\net6.0-windows\capaEntidad.pdb
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.csproj.AssemblyReference.cache
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.AssemblyInfo.cs
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.dll
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\refint\capaEntidad.dll
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\capaEntidad.pdb
+C:\Users\Lagospina\source\repos\IngCampbelljunior\CRUD_MySQL\capaEntidad\obj\Debug\net6.0-windows\ref\capaEntidad.dll

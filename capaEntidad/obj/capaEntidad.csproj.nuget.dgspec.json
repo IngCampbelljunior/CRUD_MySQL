@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj": {}
+    "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj": {
+    "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
         "projectName": "capaEntidad",
-        "projectPath": "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
-        "packagesPath": "C:\\Users\\luis.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\obj\\",
+        "projectPath": "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
+        "packagesPath": "C:\\Users\\Lagospina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luis.garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lagospina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

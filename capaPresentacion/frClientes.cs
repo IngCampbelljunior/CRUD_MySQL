@@ -24,11 +24,17 @@ public partial class frClientes : Form
 
     private void btnNuevo_Click(object sender, EventArgs e)
     {
+        LimpiarForm();
+    }
+
+    private void LimpiarForm() 
+    {
         txtId.Value = 0;
         txtNombre.Text = string.Empty;
         txtApellido.Text = string.Empty;
         picFoto.Image = null;
     }
+
 
     private void lnkFoto_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
     {
@@ -69,12 +75,25 @@ public partial class frClientes : Form
         }
         
         CargarDatos();
+        LimpiarForm();
 
     }
 
     private void btnEliminar_Click(object sender, EventArgs e)
     {
-        cNCliente.PruebaMySql();
+        if (txtId.Value == 0)
+        {
+            return;
+        }
+
+        if (MessageBox.Show("¿Deseas eliminar el registro?","Titulo",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+        {
+            CECliente cE = new CECliente();
+            cE.Id = (int)txtId.Value;
+            cNCliente.EliminarCliente(cE);
+            CargarDatos();
+            LimpiarForm();
+        }
     }
 
     private void gridDatos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)

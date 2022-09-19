@@ -6,7 +6,7 @@ namespace capaDatos
 {
     public class CDCliente
     {
-        string CadenaConexion = "Server=localhost;User=root;Password=sa123456;Port=3306;database=curso_cs";
+        string CadenaConexion = "Server=localhost;User=root;Password=Sa123456;Port=3306;database=curso_cs";
         
         public void PruebaConexion()
         {
@@ -46,6 +46,17 @@ namespace capaDatos
             mySqlCommand.ExecuteNonQuery();
             mySqlConnection.Close();
             MessageBox.Show("Registro actualizado!");
+        }
+
+        public void Eliminar(CECliente cE)
+        {
+            MySqlConnection mySqlConnection = new MySqlConnection(CadenaConexion);
+            mySqlConnection.Open();
+            string Query = "DELETE FROM `clientes` WHERE  `id`=" + cE.Id + ";";
+            MySqlCommand mySqlCommand = new MySqlCommand(Query, mySqlConnection);
+            mySqlCommand.ExecuteNonQuery();
+            mySqlConnection.Close();
+            MessageBox.Show("Registro eliminado!");
         }
 
         public DataSet Listar()

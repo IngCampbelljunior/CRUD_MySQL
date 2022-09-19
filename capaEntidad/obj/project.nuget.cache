@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M37r3undxIIlxggGSX9dxUll1DbpgZqzwisRZ1VLVm3ODVumrDHNc0NrJdy1wQBT4c8P/rYe4WIqlhAYDehC+g==",
+  "dgSpecHash": "p7Hngk4WpdNUDYqDjEtu59YHhJ5iiDKEdN6WtIRFWoMfhoEdxUTjjKBzIncCwGk0p/HwyAK7OAW5ZvODV56zyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis.garcia\\Desktop\\ProyectosCampbell\\Practica\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
+  "projectFilePath": "C:\\Users\\Lagospina\\source\\repos\\IngCampbelljunior\\CRUD_MySQL\\capaEntidad\\capaEntidad.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
